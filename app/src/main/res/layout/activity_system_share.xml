@@ -8,28 +8,36 @@
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".ui.MainActivity">
+    tools:context=".ui.SystemShareActivity">
 
     <Button
-        android:id="@+id/btnSystemShare"
+        android:id="@+id/btnShareText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="系统分享"
+        android:text="分享文字（Hello World!）"
         />
 
     <Button
-        android:id="@+id/btnActionBarShare"
+        android:id="@+id/btnShareImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="系统ActionBar分享"
+        android:text="分享单张图片"
         />
 
     <Button
-        android:id="@+id/btnCustomShare"
+        android:id="@+id/btnShareMultiple"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="自定义分享"
+        android:text="分享多张图片"
+        />
+
+    <Button
+        android:id="@+id/btnShareFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="分享文件"
         />
 </LinearLayout>
