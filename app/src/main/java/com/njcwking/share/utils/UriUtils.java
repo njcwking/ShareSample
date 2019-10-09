@@ -9,7 +9,7 @@ import java.io.File;
 
 /**
  * @ClassName : UriUtils
- * @Author : 陈伟
+ * @Author : njcwking
  * @Date : 2018/11/26
  * @Description : say something
  */
@@ -17,8 +17,9 @@ public class UriUtils {
 
     /**
      * 获取文件的Uri
-     * @param context
-     * @param filePath
+     *
+     * @param context  应用上下文
+     * @param filePath 文件路径
      * @return
      */
     public static Uri getUriFromFile(Context context, String filePath) {

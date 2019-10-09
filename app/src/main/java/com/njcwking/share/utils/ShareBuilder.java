@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * @ClassName : ShareBuilder
- * @Author : 陈伟
+ * @Author : njcwking
  * @Date : 2018/11/26
  * @Description : 分享属性构造器
  */

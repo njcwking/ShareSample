@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * @ClassName : Share
- * @Author : 陈伟
+ * @Author : njcwking
  * @Date : 2018/11/26
  * @Description : say something
  */
@@ -45,6 +45,10 @@ public class Share {
         shareIntent = initIntent();
     }
 
+    /**
+     * 初始化Intent意图
+     * @return
+     */
     private Intent initIntent() {
         Intent shareIntent = null;
         switch (shareType) {
